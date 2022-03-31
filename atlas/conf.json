@@ -1,0 +1,22 @@
+{
+    "max_obs": 200,
+    "msk_frac": 0.5,
+    "rnd_frac": 0.2,
+    "same_frac": 0.2,
+    "data": "./data/records/huge",
+    "p": "./runs/huge",
+    "batch_size": 5000,
+    "epochs": 10000,
+    "patience": 200,
+    "layers": 2,
+    "heads": 4,
+    "head_dim": 256,
+    "dff": 128,
+    "dropout": 0.1,
+    "base": 1000,
+    "lr": 0.001,
+    "use_leak": false,
+    "no_train": false,
+    "no_shuffle": false,
+    "exp_date": "2021-09-08 19:06:03"
+}
